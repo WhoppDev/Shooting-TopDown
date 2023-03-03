@@ -40,7 +40,7 @@ public class GunController : MonoBehaviour
 
     void Shoot()
     {
-        if (Input.anyKey)
+        if (Input.GetButton("Fire1"))
         {
             Instantiate(bullet, spawnbullet.position, transform.rotation);
         }

@@ -12,6 +12,7 @@ public class GunController : MonoBehaviour
 
     public GameObject bullet;
     public Transform spawnbullet;
+    public FixedJoystick ainJoystick;
 
 
     // Start is called before the first frame update

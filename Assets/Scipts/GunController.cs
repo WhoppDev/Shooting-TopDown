@@ -17,9 +17,10 @@ public class GunController : MonoBehaviour
     public Button Fire;
 
 
-    public GameObject gun;
-    public Color buttonColor;
+    public float timeLeft = 15f;
+    public bool buttonActive = true;
     public Button button;
+
 
 
     // Start is called before the first frame update
@@ -32,6 +33,29 @@ public class GunController : MonoBehaviour
     void Update()
     {
         Aim();
+
+        if (!buttonActive)
+        {
+            if (timeLeft > 0)
+            {
+                timeLeft -= Time.deltaTime;
+            }
+            else
+            {
+                button.interactable = true;
+                buttonActive = true;
+                timeLeft = 15f;
+            }
+        }
+    }
+
+    public void Disable()
+    {
+        if (buttonActive)
+        {
+            button.interactable = false;
+            buttonActive = false;
+        }
     }
 
     void Aim()

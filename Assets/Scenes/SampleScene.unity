@@ -340,6 +340,9 @@ MonoBehaviour:
   spawnbullet: {fileID: 539428830}
   ainJoystick: {fileID: 0}
   Fire: {fileID: 0}
+  timeLeft: 15
+  buttonActive: 1
+  button: {fileID: 2061353999}
 --- !u!1 &400799435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,6 +1661,18 @@ MonoBehaviour:
       - m_Target: {fileID: 319992670}
         m_TargetAssemblyTypeName: GunController, Assembly-CSharp
         m_MethodName: Shoot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 319992670}
+        m_TargetAssemblyTypeName: GunController, Assembly-CSharp
+        m_MethodName: Disable
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GunController : MonoBehaviour
 {
@@ -13,6 +14,12 @@ public class GunController : MonoBehaviour
     public GameObject bullet;
     public Transform spawnbullet;
     public FixedJoystick ainJoystick;
+    public Button Fire;
+
+
+    public GameObject gun;
+    public Color buttonColor;
+    public Button button;
 
 
     // Start is called before the first frame update
@@ -25,7 +32,6 @@ public class GunController : MonoBehaviour
     void Update()
     {
         Aim();
-        Shoot();
     }
 
     void Aim()
@@ -39,12 +45,10 @@ public class GunController : MonoBehaviour
         sprite.flipY = (joystickRotation.Horizontal < joystickRotation.Vertical);
     }
 
-    void Shoot()
+    public void Shoot()
     {
-        if (Input.GetButton("Fire1"))
-        {
+
             Instantiate(bullet, spawnbullet.position, transform.rotation);
-        }
     }
 
 }

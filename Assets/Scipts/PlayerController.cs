@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public FixedJoystick moveJoystick;
     public FixedJoystick ainJoystick;
 
+    public GameObject gun;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,5 +29,13 @@ public class PlayerController : MonoBehaviour
         transform.Translate(moveInput * Time.deltaTime * moveSpeed);
 
         anim.SetBool("isWalk", (Mathf.Abs(moveInput.x) > 0 || Mathf.Abs(moveInput.y) > 0));
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Instantiate(gun, transform.position, Quaternion.identity);
+        }
+
+
     }
+
 }

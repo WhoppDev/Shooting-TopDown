@@ -17,7 +17,7 @@ public class GunController : MonoBehaviour
     public Button Fire;
 
 
-    public float timeLeft = 15f;
+    public float timeLeft = 2f;
     public bool buttonActive = true;
     public Button button;
 
@@ -44,7 +44,7 @@ public class GunController : MonoBehaviour
             {
                 button.interactable = true;
                 buttonActive = true;
-                timeLeft = 15f;
+                timeLeft = 2f;
             }
         }
     }

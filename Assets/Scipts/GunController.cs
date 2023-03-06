@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Tilemaps;
 
 public class GunController : MonoBehaviour
 {
@@ -27,6 +28,7 @@ public class GunController : MonoBehaviour
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
@@ -68,6 +70,7 @@ public class GunController : MonoBehaviour
 
         sprite.flipY = (joystickRotation.Horizontal < joystickRotation.Vertical);
     }
+
 
     public void Shoot()
     {

@@ -510,7 +510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationOffset: 3
-  joystickRotation: {fileID: 4436080184564587089}
+  joystickRotation: {fileID: 1606342918}
   bullet: {fileID: 516135709224870806, guid: 7a2e3f2d8d33f4943a7baaa5e7c28812, type: 3}
   spawnbullet: {fileID: 539428830}
   ainJoystick: {fileID: 0}
@@ -1664,7 +1664,7 @@ MonoBehaviour:
   moveSpeed: 5
   fireSpeed: 0
   moveJoystick: {fileID: 1606342918}
-  ainJoystick: {fileID: 4436080184564587089}
+  ainJoystick: {fileID: 1606342918}
   gun: {fileID: 516135709224870806, guid: 7a2e3f2d8d33f4943a7baaa5e7c28812, type: 3}
 --- !u!50 &779195612
 Rigidbody2D:
@@ -4461,7 +4461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -116.19, y: 435.44}
+  m_AnchoredPosition: {x: -116.19, y: 161}
   m_SizeDelta: {x: 106.01, y: 200.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2061353999
@@ -4742,7 +4742,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &4436080184564587102
 CanvasRenderer:
   m_ObjectHideFlags: 0

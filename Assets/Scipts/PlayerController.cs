@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float moveSpeed;
-    [SerializeField] float fireSpeed;
+    public float moveSpeed;
+    public float fireSpeed;
 
     Vector2 moveInput;
     Animator anim;

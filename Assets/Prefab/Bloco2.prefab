@@ -135,7 +135,7 @@ MonoBehaviour:
   animationFrame: 0
   loop: 1
   idle: 0
-  itemSpawnChance: 0.3
+  itemSpawnChance: 1
   spawnableItenss:
   - {fileID: 8110717855747708343, guid: 741e51381fd52084e8552323411f6804, type: 3}
   - {fileID: 3164828598381761014, guid: 5dc5c435fd8a28f498f4421482d88ddb, type: 3}

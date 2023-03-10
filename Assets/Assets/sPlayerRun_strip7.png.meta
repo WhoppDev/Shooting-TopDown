@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6bc03a577c771c9459840a5223fc00fb
+guid: 39b1e6ca8c51cc947970be4ae18894f6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sPlayerIdle_strip4_0
+      name: sPlayerRun_strip7_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eef270575ba26fc418210a510ffdf3fd
-      internalID: 418562942
+      spriteID: f5d085532ebefef4d8e47127c90ee9bf
+      internalID: 1916988332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sPlayerIdle_strip4_1
+      name: sPlayerRun_strip7_1
       rect:
         serializedVersion: 2
         x: 40
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17a4740c41824294796c5a547442e40c
-      internalID: 1668331869
+      spriteID: f3a31a3970686334380bccaeed29f0d9
+      internalID: 2047633445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sPlayerIdle_strip4_2
+      name: sPlayerRun_strip7_2
       rect:
         serializedVersion: 2
         x: 80
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f2460ff055dff6429baf3d5db033a08
-      internalID: 757438583
+      spriteID: a97cb6e875e3f9444a5a421e33968acc
+      internalID: 465110546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sPlayerIdle_strip4_3
+      name: sPlayerRun_strip7_3
       rect:
         serializedVersion: 2
         x: 120
@@ -194,8 +194,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a89421142416b54db299d7f2280cfd3
-      internalID: 531205387
+      spriteID: 5c78f07d751150849a281a88013f03e3
+      internalID: 1128183195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sPlayerRun_strip7_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94fd094aec95a24eaff079f41e026c1
+      internalID: 145620241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sPlayerRun_strip7_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092b9d8e524aadf48ad55e5b96fd25f5
+      internalID: 680126700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sPlayerRun_strip7_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75129365268504e4b9bf78990ae23a7b
+      internalID: 725346230
       vertices: []
       indices: 
       edges: []
@@ -211,10 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sPlayerIdle_strip4_0: 418562942
-      sPlayerIdle_strip4_3: 531205387
-      sPlayerIdle_strip4_2: 757438583
-      sPlayerIdle_strip4_1: 1668331869
+      sPlayerRun_strip7_0: 1916988332
+      sPlayerRun_strip7_1: 2047633445
+      sPlayerRun_strip7_2: 465110546
+      sPlayerRun_strip7_3: 1128183195
+      sPlayerRun_strip7_4: 145620241
+      sPlayerRun_strip7_5: 680126700
+      sPlayerRun_strip7_6: 725346230
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

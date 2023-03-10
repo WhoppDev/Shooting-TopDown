@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a32a6693da8568746b929cd720a0bcf3
+guid: 9e8109bbfdbb6f54cb982cd5f4f29ec5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -212,9 +212,9 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       sPlayerIdle_strip4_0: 418562942
-      sPlayerIdle_strip4_1: 1668331869
-      sPlayerIdle_strip4_2: 757438583
       sPlayerIdle_strip4_3: 531205387
+      sPlayerIdle_strip4_2: 757438583
+      sPlayerIdle_strip4_1: 1668331869
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

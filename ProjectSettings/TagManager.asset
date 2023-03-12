@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Destructable
   - Bullet
+  - Water
   layers:
   - Default
   - TransparentFX

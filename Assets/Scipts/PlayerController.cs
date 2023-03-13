@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.Netcode;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : NetworkBehaviour
 {
     public float moveSpeed;
     public float fireSpeed;
@@ -13,6 +14,12 @@ public class PlayerController : MonoBehaviour
     public FixedJoystick ainJoystick;
 
     public GameObject gun;
+
+   // public override void OnNetworkSpawn(){
+     //   if(!IsOwner){
+      //      Destroy(this);
+     //   }
+   // }
 
     // Start is called before the first frame update
     void Start()

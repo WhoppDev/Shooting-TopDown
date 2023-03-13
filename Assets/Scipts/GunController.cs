@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Tilemaps;
+using Unity.Netcode;
 
-public class GunController : MonoBehaviour
+
+public class GunController : NetworkBehaviour
 {
 
     SpriteRenderer sprite;
@@ -49,6 +51,7 @@ public class GunController : MonoBehaviour
                 timeLeft = 2f;
             }
         }
+
     }
 
     public void Disable()
@@ -74,8 +77,18 @@ public class GunController : MonoBehaviour
 
     public void Shoot()
     {
+        if(!IsOwner) return;
+        ShootServerRpc();
 
-            Instantiate(bullet, spawnbullet.position, transform.rotation);
+         
+    }
+
+    [ServerRpc]
+    private void ShootServerRpc()
+    {
+        GameObject go =  Instantiate(bullet, spawnbullet.position, transform.rotation);
+           go.GetComponent<NetworkObject>().Spawn();
+        
     }
 
 }
